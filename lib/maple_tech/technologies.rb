@@ -6,6 +6,7 @@ module MapleTech
   class Technologies
     class Error < StandardError; end
 
+    # rubocop:disable Metrics/CollectionLiteralLength
     def self.all
       [
         'Not Applicable',
@@ -1113,6 +1114,7 @@ module MapleTech
         'Metaverse',
         'Dynamics'
       ].freeze
+      # rubocop:enable Metrics/CollectionLiteralLength
     end
   end
 end
