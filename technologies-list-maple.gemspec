@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/DIncProd/technologies-list-maple'
   spec.license = 'MIT'
   # rubocop:disable Gemspec/RequiredRubyVersion
-  spec.required_ruby_version = '>= 3.0'
+  spec.required_ruby_version = '>= 2.7'
   # rubocop:enable Gemspec/RequiredRubyVersion
 
   spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
