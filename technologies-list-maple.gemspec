@@ -5,8 +5,8 @@ require_relative 'lib/maple_tech/technologies/version'
 Gem::Specification.new do |spec|
   spec.name = 'technologies-list-maple'
   spec.version = MapleTech::Technologies::VERSION
-  spec.authors = ['Muhammad Abdullah']
-  spec.email = ['muhammad.abdullah@devsinc.com']
+  spec.authors = ['MapleHR']
+  spec.email = ['engineering@maplehr.io']
 
   spec.summary = 'This gem will manage technologies'
   spec.homepage = 'https://github.com/DIncProd/technologies-list-maple'

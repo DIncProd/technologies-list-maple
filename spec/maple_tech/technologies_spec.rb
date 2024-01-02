@@ -7,10 +7,6 @@ RSpec.describe(MapleTech::Technologies) do
     it 'has a version number' do
       expect(MapleTech::Technologies::VERSION).not_to(be(nil))
     end
-
-    it 'must has version number of 0.1.0' do
-      expect(MapleTech::Technologies::VERSION).to(eql('0.1'))
-    end
   end
 
   context 'technologies' do
@@ -22,6 +18,12 @@ RSpec.describe(MapleTech::Technologies) do
     it 'should not have empty value' do
       empty_value = MapleTech::Technologies.all.any? { |value| value.eql?('') }
       expect(empty_value).to(eql(false))
+    end
+
+    it 'should not have duplicate values' do
+      uniq_count = MapleTech::Technologies.all.uniq(&:downcase).length
+      total_technologies_count = MapleTech::Technologies.all.length
+      expect(uniq_count).to(eql(total_technologies_count))
     end
   end
 end
