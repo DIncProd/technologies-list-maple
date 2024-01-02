@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'byebug'
-
 RSpec.describe(MapleTech::Technologies) do
   context 'version' do
     it 'has a version number' do
@@ -21,9 +19,17 @@ RSpec.describe(MapleTech::Technologies) do
     end
 
     it 'should not have duplicate values' do
-      uniq_count = MapleTech::Technologies.all.uniq(&:downcase).length
-      total_technologies_count = MapleTech::Technologies.all.length
-      expect(uniq_count).to(eql(total_technologies_count))
+      uniq_technologies = MapleTech::Technologies.all.uniq(&:downcase)
+      all_technologies = MapleTech::Technologies.all
+      expect(uniq_technologies).to match_array(all_technologies)
+    end
+
+    it 'should not have blank space as first or last character' do
+      technologies_with_empty_strings = MapleTech::Technologies.all.reject do |value|
+        value[0] == ' ' || value[-1] == ' '
+      end
+      all_technologies = MapleTech::Technologies.all
+      expect(technologies_with_empty_strings).to match_array(all_technologies)
     end
   end
 end
