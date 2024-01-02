@@ -1112,7 +1112,12 @@ module MapleTech
         'QA Manual',
         'QA Automation',
         'Metaverse',
-        'Dynamics'
+        'Dynamics',
+        'Pulumi',
+        'Azure',
+        'JVM',
+        'MSLANG',
+        'PLSQL'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
