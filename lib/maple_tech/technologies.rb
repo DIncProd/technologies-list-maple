@@ -300,7 +300,6 @@ module MapleTech
         'GameMonkey Script',
         'GAMS',
         'GAP',
-        'Gatsby',
         'GDL',
         'GDScript',
         'Genie',
