@@ -326,6 +326,7 @@ module MapleTech
         'Gradle',
         'Grails',
         'GraphTalk',
+        'GraphQL',
         'GRASS',
         'Grasshopper',
         'Grok',
