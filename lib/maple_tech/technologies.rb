@@ -1119,7 +1119,7 @@ module MapleTech
         'JVM',
         'MSLANG',
         'PLSQL',
-        'Salesforce',
+        'Salesforce'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
