@@ -1121,7 +1121,8 @@ module MapleTech
         'PLSQL',
         'Salesforce',
         'Logic Apps',
-        'Power Apps'
+        'Power Apps',
+        'Data Engineering (DE)'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
