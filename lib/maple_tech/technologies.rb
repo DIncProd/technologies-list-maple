@@ -1122,7 +1122,8 @@ module MapleTech
         'Salesforce',
         'Logic Apps',
         'Power Apps',
-        'Data Engineering (DE)'
+        'Data Engineering (DE)',
+        'GenAi/LLM'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
