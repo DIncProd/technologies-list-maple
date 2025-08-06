@@ -326,6 +326,7 @@ module MapleTech
         'Gradle',
         'Grails',
         'GraphTalk',
+        'GraphQL',
         'GRASS',
         'Grasshopper',
         'Grok',
@@ -1118,7 +1119,11 @@ module MapleTech
         'JVM',
         'MSLANG',
         'PLSQL',
-        'LLM'
+        'Salesforce',
+        'Logic Apps',
+        'Power Apps',
+        'Data Engineering (DE)',
+        'GenAi/LLM'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
