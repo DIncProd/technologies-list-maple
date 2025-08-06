@@ -1117,7 +1117,8 @@ module MapleTech
         'Azure',
         'JVM',
         'MSLANG',
-        'PLSQL'
+        'PLSQL',
+        'LLM'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
