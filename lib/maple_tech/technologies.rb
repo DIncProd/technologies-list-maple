@@ -1124,7 +1124,8 @@ module MapleTech
         'Power Apps',
         'Data Engineering (DE)',
         'GenAi/LLM',
-        'Data Infrastructure and Analytics'
+        'Data Infrastructure and Analytics',
+        'Information Technology'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
