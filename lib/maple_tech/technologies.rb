@@ -1125,7 +1125,8 @@ module MapleTech
         'Data Engineering (DE)',
         'GenAi/LLM',
         'Data Infrastructure and Analytics',
-        'Information Technology'
+        'Information Technology',
+        'Data Science'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
