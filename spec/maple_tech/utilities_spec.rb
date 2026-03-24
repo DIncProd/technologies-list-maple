@@ -55,7 +55,7 @@ RSpec.describe(MapleProject::Utilities) do
 
   context 'thread types' do
     it 'should match expected enum values' do
-      expect(MapleProject::Utilities.thread_types).to(eql({ qa: 1, se: 2, pm: 3 }))
+      expect(MapleProject::Utilities.thread_types).to(eql(['QA', 'SE', 'PM']))
     end
   end
 end

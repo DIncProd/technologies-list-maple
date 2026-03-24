@@ -2,11 +2,6 @@
 
 module MapleProject
   class Utilities
-    THREAD_TYPES = {
-      qa: 1,
-      se: 2,
-      pm: 3
-    }.freeze
 
     # rubocop:disable Metrics/CollectionLiteralLength
     def self.services
@@ -65,7 +60,11 @@ module MapleProject
     # rubocop:enable Metrics/CollectionLiteralLength
 
     def self.thread_types
-      THREAD_TYPES
+      [
+        'QA',
+        'SE',
+        'PM'
+      ].freeze
     end
   end
 end
