@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'technologies/version'
+require_relative 'project'
 
 module MapleTech
   class Technologies
