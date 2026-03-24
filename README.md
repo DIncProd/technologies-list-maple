@@ -16,10 +16,16 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem provides static lists and does not create or update records.
 
-- This gem only lists the technologies and does not create or update the existing technologies
-- To list all technologies use -> MapleTech::Technologies.all
+- List all technologies:
+  - `MapleTech::Technologies.all`
+- List project services:
+  - `MapleProject::Project.services`
+- List industries:
+  - `MapleProject::Project.industries`
+- Thread types enum:
+  - `MapleProject::Project.thread_types`
 
 ## Development
 
