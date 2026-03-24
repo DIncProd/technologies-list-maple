@@ -21,11 +21,11 @@ This gem provides static lists and does not create or update records.
 - List all technologies:
   - `MapleTech::Technologies.all`
 - List project services:
-  - `MapleProject::Project.services`
+  - `MapleProject::Utilities.services`
 - List industries:
-  - `MapleProject::Project.industries`
+  - `MapleProject::Utilities.industries`
 - Thread types enum:
-  - `MapleProject::Project.thread_types`
+  - `MapleProject::Utilities.thread_types`
 
 ## Development
 

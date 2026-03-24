@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module MapleProject
-  class Project
+  class Utilities
     THREAD_TYPES = {
       qa: 1,
       se: 2,
