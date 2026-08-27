@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'technologies/version'
+require_relative 'project'
 
 module MapleTech
   class Technologies
@@ -1126,7 +1127,8 @@ module MapleTech
         'GenAi/LLM',
         'Data Infrastructure and Analytics',
         'Information Technology',
-        'MERN'
+        'Data Science',
+        'Mern'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
