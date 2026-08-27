@@ -1128,7 +1128,7 @@ module MapleTech
         'Data Infrastructure and Analytics',
         'Information Technology',
         'Data Science',
-        'Mern'
+        'MERN'
       ].freeze
       # rubocop:enable Metrics/CollectionLiteralLength
     end
